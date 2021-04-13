@@ -94,6 +94,7 @@ public abstract class Caster extends Attacker {
 
                 event.setCastType(EntityMagicCastEvent.PRE);
                 EventManager.getInstance().invokeEventMethods(event);
+                // a
             }
 
         }
